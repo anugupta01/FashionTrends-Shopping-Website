@@ -1,0 +1,44 @@
+export default function CategoriesGrid() {
+
+  return (
+    <section className="container my-4">
+      <div className="d-grid grid-template-col-2 grid-template-col-md-3 grid-gap-1 grid-gap-sm-3 mt-3">
+        <div className="img img-zoom-in grid-column-start-1 grid-column-end-3 grid-column-end-sm-2 grid-row-start-sm-1 grid-row-end-sm-3">
+          <div data-cover="./assets/img/discover/1.jpeg" data-height="150px 276px 250px 325px 400px"></div>
+          <div className="overlay overlay-show bg-dark"></div>
+          <div className="overlay-content overlay-show">
+            <a href="shop-grid.html" className="card-link h3 text-white font-condensed font-weight-bold stretched-link">NEW ARRIVALS</a>
+          </div>
+        </div>
+        <div className="img img-zoom-in">
+          <div data-cover="./assets/img/discover/2.jpeg" data-height="125px 100% 100% 100% 100%"></div>
+          <div className="overlay overlay-show bg-dark"></div>
+          <div className="overlay-content overlay-show">
+            <a href="shop-grid.html" className="card-link h3 text-white font-condensed stretched-link text-center px-3">Crossbody Bag</a>
+          </div>
+        </div>
+        <div className="img img-zoom-in">
+          <div data-cover="./assets/img/discover/3.jpeg" data-height="125px 100% 100% 100% 100%"></div>
+          <div className="overlay overlay-show bg-dark"></div>
+          <div className="overlay-content overlay-show">
+            <a href="shop-grid.html" className="card-link h3 text-white font-condensed stretched-link text-center px-3">Winter Collection</a>
+          </div>
+        </div>
+        <div className="img img-zoom-in">
+          <div data-cover="./assets/img/discover/4.jpeg" data-height="125px 130px 100% 100% 100%"></div>
+          <div className="overlay overlay-show bg-dark"></div>
+          <div className="overlay-content overlay-show">
+            <a href="shop-grid.html" className="card-link h3 text-white font-condensed stretched-link text-center px-3">Accessories</a>
+          </div>
+        </div>
+        <div className="img img-zoom-in">
+          <div data-cover="./assets/img/discover/5.jpeg" data-height="125px 130px 100% 100% 100%"></div>
+          <div className="overlay overlay-show bg-dark"></div>
+          <div className="overlay-content overlay-show">
+            <a href="shop-grid.html" className="card-link h3 text-white font-condensed stretched-link text-center px-3">Hats</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
